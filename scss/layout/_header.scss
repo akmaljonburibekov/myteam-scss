@@ -1,0 +1,126 @@
+// HEADER TOP START
+.header {
+  padding-bottom: 25rem;
+}
+
+.round-left_image {
+  position: absolute;
+  margin-top: 25rem;
+  margin-left: -1rem;
+}
+
+.header-top {
+  padding-top: 7.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.hemburger {
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 4rem;
+  margin-left: -50rem;
+}
+
+.nav-link {
+  color: $primary-whtie;
+  font-family: $main-font-family;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.button {
+  background-color: $primary-midnight-green;
+  border-color: $primary-whtie;
+  color: $primary-whtie;
+  font-family: $main-font-family;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.top-hero {
+  display: flex;
+  gap: 3rem;
+  padding-top: 12.9rem;
+}
+.top-hero_title {
+  width: 100%;
+  max-width: 63.5rem;
+  font-family: $main-font-family;
+  font-weight: 700;
+  font-size: 10rem;
+  line-height: 1;
+    & span {
+      color: #F67E7E;
+    }
+}
+hr {
+  width: 100%;
+  max-width: 5rem;
+  margin-bottom: 7.9rem;
+}
+.top-hero_text {
+  width: 100%;
+  max-width: 44.5rem;
+  font-family: $main-font-family;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.55;
+}
+
+.round-bottom_image {
+  position: absolute;
+  margin-left: 74rem;
+  margin-top: 15rem;
+}
+// HEADER TOP END
+
+// MEDIA START
+
+@media (max-width: 360px) {
+  .button, 
+  .nav-list, 
+  .round-left_image, 
+  .round-bottom_image,
+  hr {
+    display: none;
+  }
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hemburger {
+    display: block;
+    height: 2rem;
+  }
+  .header-title {
+    display: flex;
+    gap: 6.5rem;
+    align-items: center;
+  }
+  .top-hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -5rem;
+  }
+  .top-hero_title {
+    font-size: 5rem;
+  }
+  .top-hero_text {
+    text-align: justify;
+  }
+  .header {
+    padding-bottom: 3.2rem;
+  }
+  .header-top {
+    margin-bottom: -3rem;
+  }
+}
+// MEDIA END
+
