@@ -363,21 +363,21 @@ body {
   font-weight: 400;
   src: url("../fonts/livvic-v14-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-/* livvic-500italic - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Livvic";
-  font-style: italic;
-  font-weight: 500;
-  src: url("../fonts/livvic-v14-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* livvic-600 - latin */
+/* livvic-500 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: "Livvic";
   font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/livvic-v14-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
   font-weight: 600;
-  src: url("../fonts/livvic-v14-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/livvic-v14-latin-600italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* livvic-700 - latin */
 @font-face {
@@ -394,6 +394,22 @@ body {
   font-style: italic;
   font-weight: 700;
   src: url("../fonts/livvic-v14-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/livvic-v14-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/livvic-v14-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 body {
   font-family: "Livvic", sans-serif;
@@ -430,6 +446,414 @@ body {
   color: #FFFFFF;
 }
 
+main {
+  background-color: #012F34;
+}
+
+.section-build {
+  display: flex;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  position: relative;
+}
+
+.section-build_content {
+  margin-right: 12.5rem;
+}
+
+.section-build_title {
+  max-width: 44.5rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1;
+}
+
+.future-list {
+  display: flex;
+  gap: 2.3rem;
+  margin-bottom: 3.2rem;
+}
+
+.future-title {
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.55;
+  color: #F67E7E;
+  margin-bottom: 1.6rem;
+}
+
+.future-text {
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.66;
+  color: #FFFFFF;
+}
+
+.stories {
+  position: relative;
+}
+
+.right-icon {
+  position: absolute;
+  right: -7.5rem;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1309px) {
+  .section-build {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .section-build_content {
+    margin-bottom: 6.4rem;
+  }
+  .right-icon {
+    position: absolute;
+    bottom: -55.4rem;
+  }
+}
+@media screen and (max-width: 1309px) {
+  .right-icon {
+    position: absolute;
+    top: 53.6rem;
+  }
+  .section-build_title {
+    max-width: 44.5rem;
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section-build {
+    display: flex;
+    padding-top: 6.4rem;
+    padding-bottom: 5rem;
+  }
+  .section-build_title {
+    margin-top: -3.2rem;
+  }
+  .right-icon {
+    position: absolute;
+    top: 57.2rem;
+  }
+  .section-build_title {
+    max-width: 44.5rem;
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 1;
+  }
+  .future-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .section-build {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .right-icon {
+    width: 100px;
+    min-height: auto;
+    top: 39.3rem;
+  }
+}
+.stories {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.section-stories {
+  background-color: #004047;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.stories-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stories-title {
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 5.6rem;
+}
+
+.span-stories {
+  color: #79C8C7;
+}
+
+.stories-text {
+  text-align: center;
+  margin-top: -2rem;
+  color: #FFFFFF;
+  margin-bottom: 2.4rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.66;
+}
+
+.person-name {
+  text-align: center;
+  color: #79C8C7;
+  margin-bottom: 0.2rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.66;
+}
+
+.person-job {
+  margin-bottom: 3.2rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.38;
+  color: #FFFFFF;
+}
+
+.riview-bg_left {
+  position: absolute;
+  left: 0;
+  top: 136.5rem;
+}
+
+.riview-bg_right {
+  position: absolute;
+  right: 0;
+  top: 200.4rem;
+}
+
+@media screen and (max-width: 1309px) {
+  .section-stories_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70rem;
+  }
+  .stories {
+    display: flex;
+    flex-direction: column;
+    max-width: 70rem;
+    gap: 6rem;
+  }
+  .stories-title {
+    font-size: 4.2rem;
+  }
+  .section-stories {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .riview-bg_left {
+    position: absolute;
+    left: 0;
+    top: 150.9rem;
+  }
+  .riview-bg_right {
+    position: absolute;
+    top: 276rem;
+  }
+}
+@media screen and (max-width: 1162px) {
+  .riview-bg_left {
+    top: 152.9rem;
+  }
+  .riview-bg_right {
+    top: 277.9rem;
+  }
+}
+@media screen and (max-width: 1162px) {
+  .riview-bg_left {
+    top: 151.7rem;
+  }
+  .riview-bg_right {
+    top: 276.7rem;
+  }
+}
+@media screen and (max-width: 1085px) {
+  .riview-bg_left {
+    top: 154.5rem;
+  }
+  .riview-bg_right {
+    top: 279.5rem;
+  }
+}
+@media screen and (max-width: 1054px) {
+  .riview-bg_left {
+    top: 146.4rem;
+  }
+  .riview-bg_right {
+    top: 271.4rem;
+  }
+}
+@media screen and (max-width: 948px) {
+  .riview-bg_left {
+    top: 144.6rem;
+  }
+  .riview-bg_right {
+    top: 266.5rem;
+  }
+  .stories-title {
+    font-size: 3.2rem;
+  }
+  .stories {
+    max-width: 60rem;
+  }
+}
+@media screen and (max-width: 924px) {
+  .riview-bg_left {
+    top: 151.1rem;
+  }
+  .riview-bg_right {
+    top: 273rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .riview-bg_left {
+    top: 140.1rem;
+  }
+  .riview-bg_right {
+    top: 262rem;
+  }
+  .stories {
+    max-width: 57.3rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .section-stories {
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+  .riview-bg_right {
+    top: 270rem;
+  }
+}
+@media screen and (max-width: 705px) {
+  .riview-bg_left {
+    top: 142.6rem;
+  }
+  .riview-bg_right {
+    top: 272.5rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .riview-bg_left {
+    top: 152.1rem;
+  }
+  .riview-bg_right {
+    top: 282.1rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .riview-bg_left {
+    top: 166rem;
+  }
+  .riview-bg_right {
+    top: 306.6rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .riview-bg_left {
+    top: 169.6rem;
+  }
+  .riview-bg_right {
+    top: 328.4rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .riview-bg_left {
+    top: 143.5rem;
+  }
+  .riview-bg_right {
+    top: 302.3rem;
+  }
+}
+.contact {
+  background-color: #F67E7E;
+  position: relative;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 7.6rem;
+  padding-bottom: 7.6rem;
+}
+
+.contact-title {
+  font-size: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1;
+  color: #012F34;
+}
+
+.review-bg-left-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.contact-button {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.55;
+  border-radius: 2.4rem;
+  border: 2px solid #012F34;
+  padding: 0.9rem 3.3rem 1.1rem 3.2rem;
+  transition: 0.2s ease;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1185px) {
+  .contact-title {
+    font-size: 3.8rem;
+  }
+}
+@media screen and (max-width: 883px) {
+  .contact-title {
+    font-size: 3.2rem;
+  }
+  .contact-content {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+@media screen and (max-width: 678px) {
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-title {
+    margin-bottom: 2.4rem;
+  }
+}
+@media screen and (max-width: 435px) {
+  .contact-title {
+    text-align: center;
+  }
+  .review-bg-left-bottom {
+    max-width: 16rem;
+    height: auto;
+  }
+}
 .header {
   padding-bottom: 25rem;
 }
@@ -444,6 +868,7 @@ body {
   padding-top: 7.7rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hemburger {
@@ -513,6 +938,157 @@ hr {
   margin-top: 15rem;
 }
 
+@media screen and (max-width: 1280px) {
+  .round-left_image {
+    display: none;
+  }
+  .round-left_image {
+    display: block;
+    max-width: 8rem;
+    position: absolute;
+    left: -1rem;
+    top: 2rem;
+  }
+}
+@media screen and (max-width: 1183px) {
+  .round-bottom_image {
+    margin-left: 0;
+    margin-left: 60rem;
+  }
+  .top-hero_title {
+    font-size: 8rem;
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .nav-list,
+  .button {
+    display: none;
+  }
+  .hemburger {
+    display: block;
+    margin-right: 2rem;
+  }
+}
+@media screen and (max-width: 1054px) {
+  .round-bottom_image {
+    width: 30rem;
+    margin-left: 50rem;
+    margin-top: 16.6rem;
+  }
+  .top-hero_title {
+    font-size: 6rem;
+  }
+  .header-title {
+    width: 14rem;
+  }
+  .header-top {
+    padding-top: 5rem;
+  }
+  .top-hero {
+    padding-top: 8rem;
+  }
+}
+@media screen and (max-width: 948px) {
+  .round-bottom_image {
+    margin-left: 40rem;
+  }
+  .top-hero_text {
+    font-size: 1.6rem;
+    text-align: justify;
+  }
+  .top-hero_title {
+    font-size: 6rem;
+    margin-top: 8.8rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .round-bottom_image {
+    max-width: 26rem;
+    margin-top: 17.7rem;
+    margin-left: 18rem;
+  }
+  .header {
+    padding-bottom: 14rem;
+  }
+  .round-left_image {
+    display: block;
+    max-width: 4rem;
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+  }
+  .round-bottom_image {
+    display: block;
+    max-width: 16rem;
+    position: absolute;
+    top: 31.3rem;
+    right: 10rem;
+  }
+}
+@media screen and (max-width: 676px) {
+  .round-bottom_image {
+    display: none;
+  }
+  .top-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+  }
+  .header {
+    padding-bottom: 12rem;
+  }
+  .round-left_image {
+    display: block;
+    max-width: 5rem;
+    position: absolute;
+    left: 1rem;
+    top: 14rem;
+  }
+  .round-bottom_image {
+    display: block;
+    max-width: 16rem;
+    position: absolute;
+    top: 40.1rem;
+    right: 26rem;
+  }
+}
+@media screen and (max-width: 412px) {
+  .top-hero_title {
+    font-size: 4rem;
+    margin-top: 8.8rem;
+  }
+  .top-hero_text {
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+  .header {
+    padding-bottom: 10rem;
+  }
+  .round-left_image {
+    display: block;
+    width: 4rem;
+    position: absolute;
+    top: 11rem;
+  }
+  .round-bottom_image {
+    display: block;
+    width: 14rem;
+    position: absolute;
+    top: 33.5rem;
+    right: 15rem;
+  }
+}
+@media screen and (max-width: 401px) {
+  .round-bottom_image {
+    display: block;
+    width: 14rem;
+    position: absolute;
+    top: 35.5rem;
+  }
+}
 @media (max-width: 360px) {
   .button,
   .nav-list,
@@ -526,14 +1102,14 @@ hr {
     flex-direction: column;
     align-items: center;
   }
-  .hemburger {
-    display: block;
-    height: 2rem;
-  }
   .header-title {
     display: flex;
     gap: 6.5rem;
     align-items: center;
+    max-width: 8rem;
+  }
+  .header-top {
+    width: 100%;
   }
   .top-hero {
     display: flex;
@@ -542,16 +1118,41 @@ hr {
     margin-top: -5rem;
   }
   .top-hero_title {
-    font-size: 5rem;
+    margin-top: 12rem;
+    font-size: 3rem;
   }
   .top-hero_text {
     text-align: justify;
+    font-size: 1.2rem;
   }
   .header {
-    padding-bottom: 3.2rem;
+    padding-bottom: 7rem;
   }
-  .header-top {
-    margin-bottom: -3rem;
+  .round-left_image {
+    display: block;
+    max-width: 3rem;
+    position: absolute;
+    left: 1rem;
+    top: -1.6rem;
+  }
+  .round-bottom_image {
+    display: block;
+    max-width: 9rem;
+    position: absolute;
+    top: 17.2rem;
+    right: 13rem;
+  }
+}
+@media (max-width: 360px) {
+  .round-left_image {
+    max-width: 35.8rem;
+    left: 1rem;
+    top: -1.5rem;
+  }
+  .round-bottom_image {
+    max-width: 35.8rem;
+    top: 17.7rem;
+    right: 12rem;
   }
 }
 .footer {
@@ -603,6 +1204,42 @@ hr {
   opacity: 60%;
 }
 
+@media screen and (max-width: 1000px) {
+  .contact-list {
+    margin-left: 16rem;
+  }
+}
+@media screen and (max-width: 860px) {
+  .contact-list {
+    margin-left: 22rem;
+  }
+  .myteam-footer {
+    max-width: 14rem;
+  }
+}
+@media screen and (max-width: 718px) {
+  .footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-nav_list {
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2.6rem;
+  }
+  .contact-list {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -3rem;
+  }
+}
 @media (max-width: 360px) {
   .footer-content {
     display: flex;

@@ -13,6 +13,7 @@
   padding-top: 7.7rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .hemburger {
   display: none;
@@ -81,6 +82,166 @@ hr {
 
 // MEDIA START
 
+@media screen and (max-width: 1280px){
+  .round-left_image {
+    display: none;
+  }
+  .round-left_image {
+    display: block;
+    max-width: 8rem;
+    position: absolute;
+    left: -1rem;
+    top: 2rem;
+  }
+}
+@media screen and (max-width: 1183px){
+  .round-bottom_image {
+    margin-left: 0;
+    margin-left: 60rem;
+  }
+  .top-hero_title {
+    font-size: 8rem;
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 1090px){
+  .nav-list,
+  .button {
+    display: none;
+  }
+  .hemburger {
+    display: block;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 1054px) {
+  .round-bottom_image {
+    width: 30rem;
+    margin-left: 50rem;
+    margin-top: 16.6rem;
+  }
+  .top-hero_title {
+    font-size: 6rem;
+  }
+  .header-title {
+    width: 14rem;
+  }
+  .header-top {
+    padding-top: 5rem;
+  }
+  .top-hero {
+    padding-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .round-bottom_image {
+    margin-left: 40rem;
+  }
+  .top-hero_text {
+    font-size: 1.6rem;
+    text-align: justify;
+  }
+  .top-hero_title {
+    font-size: 6rem;
+    margin-top: 8.8rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .round-bottom_image {
+    max-width: 26rem;
+    margin-top: 17.7rem;
+    margin-left: 18rem;
+  }
+  .header {
+    padding-bottom: 14rem;
+  }
+  .round-left_image {
+    display: block;
+    max-width: 4rem;
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+  }
+  .round-bottom_image {
+    display: block;
+    max-width: 16rem;
+    position: absolute;
+    top: 31.3rem;
+    right: 10rem;
+  }
+
+}
+
+@media screen and (max-width: 676px) {
+  .round-bottom_image {
+    display: none;
+  }
+  .top-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+  }
+  .header {
+    padding-bottom: 12rem;
+  }
+  .round-left_image {
+    display: block;
+    max-width: 5rem;
+    position: absolute;
+    left: 1rem;
+    top: 14rem;
+  }
+  .round-bottom_image {
+    display: block;
+    max-width: 16rem;
+    position: absolute;
+    top: 40.1rem;
+    right: 26rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .top-hero_title {
+    font-size: 4rem;
+    margin-top: 8.8rem;
+  }
+  .top-hero_text {
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+  .header {
+    padding-bottom: 10rem;
+  }
+  .round-left_image {
+    display: block;
+    width: 4rem;
+    position: absolute;
+    top: 11rem;
+  }
+  .round-bottom_image {
+    display: block;
+    width: 14rem;
+    position: absolute;
+    top: 33.5rem;
+    right: 15rem;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  .round-bottom_image {
+    display: block;
+    width: 14rem;
+    position: absolute;
+    top: 35.5rem;
+  }
+}
+
 @media (max-width: 360px) {
   .button, 
   .nav-list, 
@@ -94,14 +255,14 @@ hr {
     flex-direction: column;
     align-items: center;
   }
-  .hemburger {
-    display: block;
-    height: 2rem;
-  }
   .header-title {
     display: flex;
     gap: 6.5rem;
     align-items: center;
+    max-width: 8rem;
+  }
+  .header-top {
+    width: 100%;
   }
   .top-hero {
     display: flex;
@@ -110,16 +271,42 @@ hr {
     margin-top: -5rem;
   }
   .top-hero_title {
-    font-size: 5rem;
+    margin-top: 12rem;
+    font-size: 3rem;
   }
   .top-hero_text {
     text-align: justify;
+    font-size: 1.2rem;
   }
   .header {
-    padding-bottom: 3.2rem;
+    padding-bottom: 7rem;
   }
-  .header-top {
-    margin-bottom: -3rem;
+  .round-left_image {
+    display: block;
+    max-width: 3rem;
+    position: absolute;
+    left: 1rem;
+    top: -1.6rem;
+  }
+  .round-bottom_image {
+    display: block;
+    max-width: 9rem;
+    position: absolute;
+    top: 17.2rem;
+    right: 13rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .round-left_image {
+    max-width: 35.8rem;
+    left: 1rem;
+    top: -1.5rem;
+  }
+  .round-bottom_image {  
+    max-width: 35.8rem;  
+    top: 17.7rem;
+    right: 12rem;
   }
 }
 // MEDIA END

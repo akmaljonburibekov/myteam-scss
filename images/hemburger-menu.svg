@@ -1,7 +1,1 @@
-<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Group">
-<rect id="Rectangle" width="24" height="2" fill="white"/>
-<rect id="Rectangle Copy" y="7" width="24" height="2" fill="white"/>
-<rect id="Rectangle Copy 2" y="14" width="24" height="2" fill="white"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" fill="none"><g fill="#fff"><path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z"/></g></svg>
