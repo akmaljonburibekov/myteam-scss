@@ -1266,4 +1266,242 @@ hr {
 }
 main {
   flex-grow: 1;
+}
+
+.header {
+  position: relative;
+}
+
+.header {
+  padding-bottom: 12rem;
+}
+
+.round-header-right {
+  width: 100px;
+  height: 200px;
+  background-image: url(../../images/review-bg-header-right.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.top-hero {
+  padding-top: 12rem;
+}
+
+.top-hero_title {
+  width: 100%;
+  max-width: 63.5rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 1.56;
+}
+
+.top-hero_title {
+  width: 100%;
+  max-width: 35rem;
+}
+
+.top-hero_text {
+  width: 100%;
+  max-width: 75rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.55;
+}
+
+.sort-line {
+  width: 5rem;
+  border: 2px solid #F67E7E;
+}
+
+.main {
+  background-color: #004047;
+  position: relative;
+}
+
+.review-bg_hero-left-top {
+  width: 10rem;
+  height: 20rem;
+  background-image: url(../../images/review-bg_hero-left-top.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.review-bg_hero-left-bottom {
+  width: 10rem;
+  height: 20rem;
+  background-image: url(../../images/review-bg_hero-left-bottom.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: -10rem;
+}
+
+.section-hero {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.hero-title {
+  text-align: center;
+  margin-bottom: 6.4rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1;
+}
+
+.hero-person_top {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.hero-person_bottom {
+  display: flex;
+  gap: 3rem;
+}
+
+.hero-person {
+  width: 350px;
+  height: 280px;
+  position: relative;
+}
+
+.hero-person_fon {
+  width: 350px;
+  height: 253px;
+  padding-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #012F34;
+}
+
+.person-name {
+  margin-top: 1.6rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.55;
+}
+
+.person-job {
+  font-family: "Livvic", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.66;
+}
+
+.person-plus {
+  width: 56px;
+  height: 56px;
+  background-image: url(../../about/images/plus_red-background.svg);
+  position: absolute;
+  bottom: 0;
+}
+
+.last-person {
+  padding: 3.5rem 2.4rem 6.3rem;
+}
+
+.person-info {
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.aden_allan {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.aden_allan {
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.55;
+}
+
+.adden_allan_text {
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.66;
+}
+
+.section-info {
+  background-color: #012F34;
+  background-image: url(../../about/images/clients-circle.svg);
+  background-repeat: no-repeat;
+}
+
+.section-info_content {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact_content {
+  width: 100%;
+  height: 24.4;
+  display: flex;
+  justify-content: space-around;
+  padding: 7.6rem 7.6rem;
+}
+
+.section-clients_title {
+  text-align: center;
+  margin-bottom: 6.4rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1;
+}
+
+.clients-circle {
+  background-image: url(../../about/images/helf-round_image.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+}
+
+.section-clients_brends {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-circle {
+  width: 20rem;
+  height: 12.2rem;
+}
+
+.dark-btn {
+  padding: 0.9rem 3.3rem 0.9rem 3.2rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.55;
+  border-radius: 3rem;
+  color: #012F34;
+  background-color: #F67E7E;
+}
+
+.dark-btn {
+  color: #012F34;
 }/*# sourceMappingURL=style.css.map */
